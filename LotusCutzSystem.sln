@@ -1,0 +1,85 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1340
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "LotusBackEnd", "LotusBackEnd\", "{15C06832-F748-405A-97A1-66A3E7E16AE3}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.6.1"
+		ProjectReferences = "{62c86811-49f3-459a-9fb0-c1412056c48a}|LotusClasses.dll;{0189965f-616b-4c26-8cf9-3c13248e6674}|LotusTesting.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_59658"
+		Debug.AspNetCompiler.PhysicalPath = "LotusBackEnd\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_59658\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_59658"
+		Release.AspNetCompiler.PhysicalPath = "LotusBackEnd\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_59658\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "59658"
+		SlnRelativePath = "LotusBackEnd\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LotusClasses", "LotusClasses\LotusClasses.csproj", "{62C86811-49F3-459A-9FB0-C1412056C48A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LotusTesting", "LotusTesting\LotusTesting.csproj", "{0189965F-616B-4C26-8CF9-3C13248E6674}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "LotusFrontEnd(1)", "LotusFrontEnd\", "{13C5C909-37E2-4AD6-8D40-04BEDD29282E}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.6.1"
+		ProjectReferences = "{62c86811-49f3-459a-9fb0-c1412056c48a}|LotusClasses.dll;{0189965f-616b-4c26-8cf9-3c13248e6674}|LotusTesting.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_59736"
+		Debug.AspNetCompiler.PhysicalPath = "LotusFrontEnd\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_59736\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_59736"
+		Release.AspNetCompiler.PhysicalPath = "LotusFrontEnd\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_59736\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "59736"
+		SlnRelativePath = "LotusFrontEnd\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{15C06832-F748-405A-97A1-66A3E7E16AE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15C06832-F748-405A-97A1-66A3E7E16AE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15C06832-F748-405A-97A1-66A3E7E16AE3}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{15C06832-F748-405A-97A1-66A3E7E16AE3}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{62C86811-49F3-459A-9FB0-C1412056C48A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62C86811-49F3-459A-9FB0-C1412056C48A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62C86811-49F3-459A-9FB0-C1412056C48A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62C86811-49F3-459A-9FB0-C1412056C48A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0189965F-616B-4C26-8CF9-3C13248E6674}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0189965F-616B-4C26-8CF9-3C13248E6674}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0189965F-616B-4C26-8CF9-3C13248E6674}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0189965F-616B-4C26-8CF9-3C13248E6674}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13C5C909-37E2-4AD6-8D40-04BEDD29282E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13C5C909-37E2-4AD6-8D40-04BEDD29282E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13C5C909-37E2-4AD6-8D40-04BEDD29282E}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{13C5C909-37E2-4AD6-8D40-04BEDD29282E}.Release|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F6CE4424-5A32-4161-94EA-5D3AB016ECBC}
+	EndGlobalSection
+EndGlobal

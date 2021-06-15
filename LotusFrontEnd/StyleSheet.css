@@ -1,0 +1,61 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Dela+Gothic+One&display=swap');
+
+body {
+    background-color: lightblue;
+    color: black;
+    font-size: 20px;
+    font-family: 'Sitka Subheading', cursive;
+    
+}
+
+
+header{
+    background-color:lightcyan;
+    height:10%;
+    position:fixed;
+    width:100%;
+    top:0%;
+    left:0%;
+    padding:15px;
+    color:#cc0000;
+    font-size:xx-large;
+}
+
+nav{
+    background-color:whitesmoke;
+    position:fixed;
+    width:20%;
+    height:90%;
+    top:14%;
+    left:0%;
+}
+
+article{
+    background-color:lightcyan;
+    position:fixed;
+    width:80%;
+    top:5%;
+    left:20%;
+}
+
+footer{
+    background-color:lightseagreen;
+    height:10%;
+    position:fixed;
+    width:100%;
+    top:80%;
+    left:0%;
+    margin-top:95px;
+    margin-bottom:15px;
+}
+
+footer {
+    background-color: lightseagreen;
+    height: 10%;
+    position: fixed;
+    width: 100%;
+    top: 80%;
+    left: 0%;
+    margin-bottom: 10px;
+}
